@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+.heading{
+    @apply text-3xl font-semibold capitalize text-center
+}
+input{
+    @apply  h-10 w-[60%] bg-gray-700 border-transparent rounded-2xl text-center text-2xl p-7 font-semibold
+}
+.col div{
+    @apply w-[250px] text-center
+}
+}
